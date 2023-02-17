@@ -1,0 +1,152 @@
+/*
+************
+*************************
+07. Skills
+******************************************************* 
+*************************************************************** */
+.skills_area:is(.skills_dark_area) {
+    background-color: var(--clr-theme-3);
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .skills_area:is(.pt-30) {
+      padding-top: 80px;
+    }
+  }
+  @media (max-width: 767px) {
+    .skills_area:is(.pt-30) {
+      padding-top: 40px;
+    }
+  }
+  @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .skills_area:is(.pt-130) {
+      padding-top: 120px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .skills_area:is(.pt-130) {
+      padding-top: 120px;
+      padding-bottom: 90px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .skills_area:is(.pt-130) {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+  }
+  @media (max-width: 767px) {
+    .skills_area:is(.pt-130) {
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+  }
+  @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .skills_area:is(.pb-100) {
+      padding-bottom: 90px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .skill_wrapper:is(.pb-100) {
+      padding-bottom: 90px;
+    }
+  }
+  @media (max-width: 767px) {
+    .skill_wrapper:is(.pb-100) {
+      padding-bottom: 90px;
+    }
+  }
+  @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .skill_wrapper:is(.aboutus.pb-100) {
+      padding-bottom: 0px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .skill_item_wrapper:is(.mb-30) {
+      margin-bottom: 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .aboutus .skill_item_wrapper:is(.mb-30) {
+      margin-bottom: 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .service_video_area:is(.pt-130.pb-100) {
+      padding-top: 120px;
+      padding-bottom: 90px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .service_video_area:is(.pt-130.pb-100) {
+      padding-top: 110px;
+      padding-bottom: 90px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .service_video_area:is(.pt-130.pb-100) {
+      padding-top: 120px;
+      padding-bottom: 90px;
+    }
+  }
+  @media (max-width: 767px) {
+    .service_video_area:is(.pt-130.pb-100) {
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+  }
+  
+  .skill_progress_single span {
+    font-size: 20px;
+    color: var(--clr-body-heading);
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Space Grotesk";
+  }
+  
+  .progress_value {
+    float: right;
+  }
+  
+  .progress:is(.skill_progress) {
+    margin-top: 10px;
+    height: 4px;
+    background-color: #f1f1f1;
+  }
+  
+  .progress:is(.skill_progress) .progress-bar:is(.theme-1) {
+    background-color: var(--clr-theme-4);
+  }
+  
+  .progress-bar:is(.theme-3) {
+    background-color: var(--clr-theme-2);
+  }
+  
+  .skills_dark_area .skill_info p {
+    color: #7e828c;
+  }
+  .skills_dark_area .border_bottom {
+    border-bottom: 2px solid #1d2022;
+  }
+  
+  .skill_info {
+    margin-top: -10px;
+  }
+  @media (max-width: 767px) {
+    .skill_info:is(.mb-30) {
+      margin-top: -5px;
+      margin-bottom: 50px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+    .skill_info:is(.mb-30) {
+      margin-bottom: 70px;
+    }
+  }
+  
+  .border_bottom {
+    border-bottom: 1px solid #eee;
+  }
